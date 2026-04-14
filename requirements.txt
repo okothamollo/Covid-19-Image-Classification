@@ -1,9 +1,5 @@
 streamlit
-numpy
-pandas==2.0.3
-seaborn==0.13.1
 tensorflow
-keras
-scikit-learn==1.2.2
-matplotlib==3.7.1
+scikit-learn
+opencv-python
 google-cloud-storage
