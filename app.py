@@ -18,7 +18,6 @@ model = load_model()
 
 # Initialize LabelBinarizer (assuming the same classes and order as training)
 # In a real deployment, you would save and load the LabelBinarizer as well, or define the classes directly.
-# For demonstration, we'll assume the classes are known.
 enc_classes = ['Covid', 'Normal', 'Viral Pneumonia'] # Make sure these match your training labels
 enc = LabelBinarizer()
 enc.fit(enc_classes)
