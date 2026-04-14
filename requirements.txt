@@ -1,5 +1,7 @@
 streamlit
-tensorflow==2.15.0
-numpy
-scikit-learn
-opencv-python
+numpy==1.25.2 
+pandas==2.0.3 
+seaborn==0.13.1 
+tensorflow==2.15.0 
+scikit-learn==1.2.2 
+matplotlib==3.7.1 
